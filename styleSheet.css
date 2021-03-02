@@ -1,6 +1,9 @@
 html
 {
     background-color: darkgray;
+    font-family: desc;
+    color: rgb(255, 0, 255);
+    text-shadow: 0px 0px 2px rgb(255, 0, 255);
 }
 ul
 {
@@ -21,15 +24,10 @@ li
 @font-face 
 {
     font-family: desc;
-    src: url(sansation_light.woff);
-
-    font-family: nums;
-    src: url();
+    src: url(/images/MisterPixelRegular.otf);
 }
   
-.two {
-    font-family: myFirstFont;
-  }
+
 
 
 
@@ -43,7 +41,7 @@ li
 .one:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/spencers.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -60,7 +58,7 @@ li
 .two:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/hot_topic.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -78,7 +76,7 @@ li
 .three:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/bathroom.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -96,7 +94,7 @@ li
 .four:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/ducky.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -114,7 +112,7 @@ li
 .five:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/moon.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -132,7 +130,7 @@ li
 .six:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/weiner.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -150,7 +148,7 @@ li
 .seven:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/pink_dick.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -168,7 +166,7 @@ li
 .eight:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/beads.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -186,7 +184,7 @@ li
 .nine:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/iud.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -204,7 +202,7 @@ li
 .ten:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/fears.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -222,7 +220,7 @@ li
 .eleven:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/joke.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -240,7 +238,7 @@ li
 .twelve:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/tea.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -258,7 +256,7 @@ li
 .thirteen:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/wifi.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -276,7 +274,7 @@ li
 .fourteen:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/avocado.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -294,7 +292,7 @@ li
 .fifteen:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/juice.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -312,7 +310,7 @@ li
 .sixteen:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/pineapple.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
@@ -330,7 +328,553 @@ li
 .seventeen:hover:after 
 {
     position: absolute;
-    background-image: url('pic.jpg');
+    background-image: url('images/flies.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.eighteen:hover 
+{
+    position: relative;
+}
+
+.eighteen:hover:after 
+{
+    position: absolute;
+    background-image: url('images/lights.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.nineteen:hover 
+{
+    position: relative;
+}
+
+.nineteen:hover:after 
+{
+    position: absolute;
+    background-image: url('images/pool.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twenty:hover 
+{
+    position: relative;
+}
+
+.twenty:hover:after 
+{
+    position: absolute;
+    background-image: url('images/funny.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twentyone:hover 
+{
+    position: relative;
+}
+
+.twentyone:hover:after 
+{
+    position: absolute;
+    background-image: url('images/infinitly_vulgar.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twentytwo:hover 
+{
+    position: relative;
+}
+
+.twentytwo:hover:after 
+{
+    position: absolute;
+    background-image: url('images/boobies.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twentythree:hover 
+{
+    position: relative;
+}
+
+.twentythree:hover:after 
+{
+    position: absolute;
+    background-image: url('images/butterfly.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twentyfour:hover 
+{
+    position: relative;
+}
+
+.twentyfour:hover:after 
+{
+    position: absolute;
+    background-image: url('images/burn.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twentyfive:hover 
+{
+    position: relative;
+}
+
+.twentyfive:hover:after 
+{
+    position: absolute;
+    background-image: url('images/spencer.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.twentysix:hover 
+{
+    position: relative;
+    
+}
+
+.twentysix:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"blah";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+    
+}
+
+
+a
+{
+    text-decoration: none;
+    color: rgb(255, 0, 255);
+}
+a:visited
+{
+    color: cyan;
+}
+
+
+.twentyeight:hover 
+{
+    position: relative;
+}
+
+.twentyeight:hover:after 
+{
+    position: absolute;
+    background-image: url('images/joan.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+
+.twentynine:hover 
+{
+    position: relative;
+}
+
+.twentynine:hover:after 
+{
+    position: absolute;
+    background-image: url('images/internet.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+
+.thirty:hover 
+{
+    position: relative;
+}
+
+.thirty:hover:after 
+{
+    position: absolute;
+    background-image: url('images/ira.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtyone:hover 
+{
+    position: relative;
+}
+
+.thirtyone:hover:after 
+{
+    position: absolute;
+    background-image: url('images/barbie.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtytwo:hover 
+{
+    position: relative;
+}
+
+.thirtytwo:hover:after 
+{
+    position: absolute;
+    background-image: url('images/barbie_pegasus.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtythree:hover 
+{
+    position: relative;
+}
+
+.thirtythree:hover:after 
+{
+    position: absolute;
+    background-image: url('images/mermaid_barbie.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtyfour:hover 
+{
+    position: relative;
+}
+
+.thirtyfour:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtyfive:hover 
+{
+    position: relative;
+}
+
+.thirtyfive:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtysix:hover 
+{
+    position: relative;
+}
+
+.thirtysix:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtyseven:hover 
+{
+    position: relative;
+}
+
+.thirtyseven:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtyeight:hover 
+{
+    position: relative;
+}
+
+.thirtyeight:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.thirtynine:hover 
+{
+    position: relative;
+}
+
+.thirtynine:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourty:hover 
+{
+    position: relative;
+}
+
+.fourty:hover:after 
+{
+    position: absolute;
+    background-image: url('images/las_vegas.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtyone:hover 
+{
+    position: relative;
+}
+
+.fourtyone:hover:after 
+{
+    position: absolute;
+    background-image: url('images/wind.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtytwo:hover 
+{
+    position: relative;
+}
+
+.fourtytwo:hover:after 
+{
+    position: absolute;
+    background-image: url('images/dune.png');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtythree:hover 
+{
+    position: relative;
+}
+
+.fourtythree:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtyfour:hover 
+{
+    position: relative;
+}
+
+.fourtyfour:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtyfive:hover 
+{
+    position: relative;
+}
+
+.fourtyfive:hover:after 
+{
+    position: absolute;
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtysix:hover 
+{
+    position: relative;
+}
+
+.fourtysix:hover:after 
+{
+    position: absolute;
+    background-image: url('https://web.archive.org/web/20090728203756/http://es.geocities.com/ecak_nemr/margaritasexy/cooltext878297.gif');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtyseven:hover 
+{
+    position: relative;
+}
+
+.fourtyseven:hover:after 
+{
+    position: absolute;
+    background-image: url('https://web.archive.org/web/20050814233741/http://www.coolmath.com/');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
+
+.fourtyeight:hover 
+{
+    position: relative;
+}
+
+.fourtyeight:hover:after 
+{
+    position: absolute;
+    background-image: url('images/avatar.png');
     background-size: 720px 720px;
     display: block;
     width: 720px; 
