@@ -6,6 +6,7 @@ ul
 {
     list-style-type: none;
     padding-left: 1%;
+    width: min-content;
 }
 .one:hover 
 {
@@ -13,14 +14,31 @@ ul
 }
 .one:hover:after 
 {
-    content: url(pic.jpg); /* no need for qoutes */
-    display: block;
     position: absolute;
-    left: 123px; /* change this value to one that suits you */
-    top: 56px; /* change this value to one that suits you */
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: 25%; /* change this value to one that suits you */
+    
 }
 
 li
 {
     font-size: 3em;
 }
+
+@font-face {
+    font-family: desc;
+    src: url(sansation_light.woff);
+
+    font-family: nums;
+    src: url();
+  }
+  
+  .two {
+    font-family: myFirstFont;
+  }
