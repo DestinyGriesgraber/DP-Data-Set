@@ -23,21 +23,33 @@ li
 
 @font-face 
 {
-    font-family: desc;
-    src: url(/images/MisterPixelRegular.otf);
+    font-family: 'desc';
+    src: local('MisterPixelRegular'), url('images/MisterPixelRegular.otf') format('truetype');;
 }
   
 
 
+.b2
+{
+    float: right;
+    clear: right;
+    width: 10%;
+    font-size: 4pt;
+    font-family: 'desc';
+    text-shadow: none;
+    line-height: 320%;
+}
 
-
-
+ul
+{
+    display: block;
+    float: left;
+}
 
 .one:hover 
 {
     position: relative;
 }
-
 .one:hover:after 
 {
     position: absolute;
@@ -46,10 +58,14 @@ li
     display: block;
     width: 720px; 
     height: 720px;
-    content:"";
     left: 750%; /* change this value to one that suits you */
     top: 25%; /* change this value to one that suits you */
+    font-size: 12pt;
+    content: "";
+    
 }
+
+
 .two:hover 
 {
     position: relative;
