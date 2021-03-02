@@ -8,10 +8,38 @@ ul
     padding-left: 1%;
     width: min-content;
 }
+
+li
+{
+    font-size: 3em;
+}
+
+
+
+
+
+@font-face 
+{
+    font-family: desc;
+    src: url(sansation_light.woff);
+
+    font-family: nums;
+    src: url();
+}
+  
+.two {
+    font-family: myFirstFont;
+  }
+
+
+
+
+
 .one:hover 
 {
     position: relative;
 }
+
 .one:hover:after 
 {
     position: absolute;
@@ -23,22 +51,291 @@ ul
     content:"";
     left: 750%; /* change this value to one that suits you */
     top: 25%; /* change this value to one that suits you */
-    
 }
-
-li
+.two:hover 
 {
-    font-size: 3em;
+    position: relative;
 }
 
-@font-face {
-    font-family: desc;
-    src: url(sansation_light.woff);
+.two:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: 25%; /* change this value to one that suits you */
+}
 
-    font-family: nums;
-    src: url();
-  }
-  
-  .two {
-    font-family: myFirstFont;
-  }
+.three:hover 
+{
+    position: relative;
+}
+
+.three:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: 25%; /* change this value to one that suits you */
+}
+
+.four:hover 
+{
+    position: relative;
+}
+
+.four:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: 25%; /* change this value to one that suits you */
+}
+
+.five:hover 
+{
+    position: relative;
+}
+
+.five:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: 25%; /* change this value to one that suits you */
+}
+
+.six:hover 
+{
+    position: relative;
+}
+
+.six:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -70%; /* change this value to one that suits you */
+}
+
+.seven:hover 
+{
+    position: relative;
+}
+
+.seven:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -170%; /* change this value to one that suits you */
+}
+
+.eight:hover 
+{
+    position: relative;
+}
+
+.eight:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -270%; /* change this value to one that suits you */
+}
+
+.nine:hover 
+{
+    position: relative;
+}
+
+.nine:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -370%; /* change this value to one that suits you */
+}
+
+.ten:hover 
+{
+    position: relative;
+}
+
+.ten:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -470%; /* change this value to one that suits you */
+}
+
+.eleven:hover 
+{
+    position: relative;
+}
+
+.eleven:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -570%; /* change this value to one that suits you */
+}
+
+.twelve:hover 
+{
+    position: relative;
+}
+
+.twelve:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -670%; /* change this value to one that suits you */
+}
+
+.thirteen:hover 
+{
+    position: relative;
+}
+
+.thirteen:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -770%; /* change this value to one that suits you */
+}
+
+.fourteen:hover 
+{
+    position: relative;
+}
+
+.fourteen:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -870%; /* change this value to one that suits you */
+}
+
+.fifteen:hover 
+{
+    position: relative;
+}
+
+.fifteen:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -970%; /* change this value to one that suits you */
+}
+
+.sixteen:hover 
+{
+    position: relative;
+}
+
+.sixteen:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1070%; /* change this value to one that suits you */
+}
+
+.seventeen:hover 
+{
+    position: relative;
+}
+
+.seventeen:hover:after 
+{
+    position: absolute;
+    background-image: url('pic.jpg');
+    background-size: 720px 720px;
+    display: block;
+    width: 720px; 
+    height: 720px;
+    content:"";
+    left: 750%; /* change this value to one that suits you */
+    top: -1170%; /* change this value to one that suits you */
+}
