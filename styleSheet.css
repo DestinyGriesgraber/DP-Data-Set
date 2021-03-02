@@ -1,0 +1,26 @@
+html
+{
+    background-color: darkgray;
+}
+ul
+{
+    list-style-type: none;
+    padding-left: 1%;
+}
+.one:hover 
+{
+    position: relative;
+}
+.one:hover:after 
+{
+    content: url(pic.jpg); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 123px; /* change this value to one that suits you */
+    top: 56px; /* change this value to one that suits you */
+}
+
+li
+{
+    font-size: 3em;
+}
