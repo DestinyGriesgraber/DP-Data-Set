@@ -14,7 +14,7 @@ ul
 
 li
 {
-    font-size: 6em;
+    font-size: 5em;
 }
 
 
@@ -34,7 +34,7 @@ li
     float: right;
     clear: right;
     width: 10%;
-    font-size: 3.5pt;
+    font-size: 2.5pt;
     font-family: 'desc';
     text-shadow: none;
     line-height: 500%;
